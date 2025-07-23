@@ -5,5 +5,4 @@ FROM n8nio/n8n:latest
 USER root
 
 # Install the custom nodes
-RUN npm install n8n-nodes-airtop
 RUN npm install n8n-nodes-langchain
